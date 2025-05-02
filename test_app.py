@@ -4,4 +4,4 @@ def test_hello():
     tester = app.test_client()
     response = tester.get('/')
     assert response.status_code == 200
-    assert b"Merhaba Dünya!" in response.data.decode()
+    assert b"Merhaba Dunya!" in response.data.decode()
